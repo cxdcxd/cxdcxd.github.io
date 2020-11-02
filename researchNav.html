@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/WebPage">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="Content-Type-Script" content="text/javascript">
+    <meta name="Content-Type-Style" content="text/css">
+    <meta name="author" content="owwwlab.com">
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '../../www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-70916517-3', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <link href="assets/css/vendors/vendors.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendors/vendors-overwrites.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/demo1.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/vendors/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700&amp;subset=latin,greek,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Sintony:400,700&amp;subset=latin,greek,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic&amp;subset=latin,greek,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,200,300,400italic,500,700,900&amp;subset=latin,greek,cyrillic" rel="stylesheet" type="text/css">
+    <title>NAVbot</title>
+</head>
+
+<body class="fullwidth sticky-header">
+    <div id="wrapper" class="regular-layout">
+        <header id="header">
+            <div class="head-main">
+                <div class="container">
+                    <div class="logo-wrapper">
+                        <a href="index.html" class="standard-logo text-logo"><img src="assets/img/avatar.jpg" alt="EdwinBabaians">
+                            <div class="text-wrapper">
+                                <h1 class="title">Edwin<span>Babaians</span></h1></div>
+                        </a>
+                    </div>
+                    <ul id="primary-menu">
+                        <li><a href="index.html" title="Home"><span>Home</span></a></li>
+                        <li ><a href="publications.html" title="Publications"><span>Publications</span></a></li>
+                        <li class="current-menu-item"><a href="research.html" title="Research"><span>Research</span></a></li>
+                        <li><a href="contact.html" title="Contact"><span>Contact</span></a></li>
+                    </ul>
+                    <div class="header-icons">
+                        <div class="ol-mobile-trigger hamburger hamburger--elastic">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="contents">
+            <div class="page-head dark hvh-70 set-bg center-it parallax-layer" data-img-src="assets/img/bg/03.jpg" data-parallax-mode="mode-title">
+                <div class="container">
+                    <div class="tb-vcenter-wrapper">
+                        <div class="title-wrapper vcenter parallax-layer" data-parallax-mode="mode-header-content">
+                            <h4 class="head">Resaerch highlights</h4>
+                            <h1 class="title">NAVbot</h1></div>
+                        <div class="breadcrumb-wrapper vcenter parallax-layer" data-parallax-mode="mode-header-content">
+                            <ul class="breadcrumb">
+                                <li><a href="#"><i class="oli oli-home"></i></a></li>
+                                <li><a href="#">publication</a></li>
+                                <li><a href="#">publication type</a></li>
+                                <li>learning environment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="page-contents">
+                <section id="main-area">
+                    <section class="section slim-container">
+                        <div class="container">
+                            <div class="single-post large-typo">
+                                <div class="post-metas center-meta">
+                                    <a href="#" class="avatar avatar-sm"><img src="assets/img/avatar.jpg"></a>
+                                    <ul class="meta">
+                                        <li class="author">by <a href="#">Edwin</a></li>
+                                        <li class="publish_date">on <span class="date">2016</span></li>
+                                    </ul>
+                                </div>
+                                <div class="post-body">
+                                    <p style="text-align: justify"><span class="ol-dropcaps circle colored">N</span>AVbot navigation project is a wheeled AGV to perform navigation tests. It has two Devantech 24v Motors, RPLidar A2 360 degree Lidar and an Intel Core-i5 powered embedded computer. This robot can perform autonomous navigation in any desire indoor environments like offices and home. In this project, the final version of
+                                       
+                                        <a href="https://ieeexplore.ieee.org/document/6106777/"> Hector SLAM </a>
+
+                                        is used to match Lidar data and predict the robot's location. Using just lidar data for navigation is not recommended because if the lidar sensor does not work or there are any hardware issues with it, the navigation module cant performs its task. In this project, we want to show that how can we fuse the localization output from Hector SLAM and fuse it with odometry localization output using an extended Kalman filter.  </p>
+                                    
+                                    <blockquote class="quote">
+                                        <p style="color: black; text-decoration-color: black">My responsibilities in the project: <br>
+                                            <ul style="color: black; text-decoration-color: black">
+                                                <li>Indoor localization and mapping (SLAM)</li>
+                                                <li>Development of DCM (Device Communication Manager)</li>
+                                                <li>ROS software infrastructure designer</li>
+                                                <li>ROS and Matlab interfacing</li>
+                                             </ul> 
+                                        </p>
+                                    
+                                    <p class="highlight text-center">NAV Robot is an open-sourced project designed to perform various navigation algorithms</p>
+                                    <p style="text-align: justify">
+                                        Scan matching is the process of aligning laser scans with each other or with an existing map. Modern laser scanners have low distance measurement noise and high scan rates. A method for registering scans might yield very accurate results for this reason. For many robot systems, the accuracy and precision of the laser scanner are much higher than that of odometry data, if available at all. Hector SLAM is based on optimization of the alignment of beam endpoints with the map learned so far. The basic idea of using a Gauss-Newton approach is inspired by work in computer vision. Using this approach, there is no need for a data association search between beam endpoints or an exhaustive pose search. As scans get aligned with the existing map, the matching is implicitly performed with all previous scans.</p>
+                                    
+                                    <div class="caption-img off-container" style="text-align: center"><img src="assets/img/bg/diagram.png" alt="image hover">
+                                        <div style="color:black; font-size: 20px;" class="caption">Hector SLAM Diagram</div>
+                                    </div>
+
+                                    <p style="text-align: justify">In this project, we do not have any IMU or GPS sources in the robot so that the only localization sources will be the Hector SLAM scan matcher and wheel odometry from robot kinematics. Also, we used to ROS costmap solution for defining obstacles in the map using a dynamic occupancy grid. By drawing the costmap margin from the map's occupated grids, we can perform the path planning using A* algorithm. After getting the desired path, we mark every 20 cm on it as our desire local goals. On the other hand, the planning algorithm plans the path every second. Finally, the PID control algorithm is used to control the robot navigation on local goals.  </p>
+                                  
+                                    <blockquote class="quote">
+                                        <p style="text-align: justify">Kalman filtering, also known as linear quadratic estimation (LQE), is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone, by using Bayesian inference and estimating a joint probability distribution over the variables for each timeframe</p>
+                                        <footer>Kalman filter (Wikipedia)</footer>
+                                    </blockquote>
+
+                                    <div class="caption-img off-container"><img src="assets/img/bg/costmap.png" alt="image hover">
+                                        <div style="color:black; font-size: 20px;" class="caption">Path planning, the local goals</div>
+                                    </div>
+
+                                    <div class="caption-img off-container"><img src="assets/img/bg/nav2.jpg" alt="image hover">
+                                        <div style="color:black; font-size: 20px;" class="caption">Nav Robot a closer look</div>
+                                    </div>
+
+                                    <h3 style="text-align: center; margin-bottom: 20px;">Performing autonomous navigation (practical Test)</h3>
+
+                                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/TuvtDUvM5DI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                    <div style="height: 70px">
+
+                                    </div>
+
+                                    <blockquote class="quote">
+                                        <p style="color: black; text-decoration-color: black">Hardware specifications: <br>
+                                            <ul style="color: black; text-decoration-color: black">
+                                                <li>2x 24v EMG 49 Devantech Motors</li>
+                                                <li>1x Dynamixel Ax12</li>
+                                                <li>1x Embedded computer with Core-i5 CPU and 4 GB Ram</li>
+                                                <li>1x RPLidar II 360 Lidar</li>
+                                                <li>1x Devantech MD 49 driver</li>
+                                                <li>1x ROBOTIS OpenCM9 for low-level operations</li>
+                                             </ul> 
+                                        </p>
+
+                                    <div style="height: 70px">
+
+                                    </div>
+
+                                    <p style="text-align: justify">For the project source code, please visit :  <br>  <a href="https://github.com/cxdcxd/NAVbot">https://github.com/cxdcxd/NAVbot</a> </p>
+
+                                </div>
+
+                              
+                            </div>
+                            
+                          
+                        </div>
+                    </section>
+      
+                </section>
+                <div class="clearfix"></div>
+
+               
+                       
+                        
+            </section>
+        </section>
+        <footer id="footer">
+            <div id="footer-main" class="text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <div class="heading-with-sub m-bottom-50">
+                                <h3 class="title sans-font m-bottom-30">Edwin Babaians</h3>
+                            <div class="sp-line-0"></div>
+                            <ul class="m-top-30 social-icons shape-circle skin-white hover-dark">
+                                <li><a href="https://github.com/cxdcxd"><i class="fa fa-github"></i></a></li>
+                                <li><a href="https://scholar.google.com/citations?user=rTSnsNkAAAAJ&hl=en"><i class="fa fa-google"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/Edwin-babaians-53386670/"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/vendors/vendors.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+
+</html>
